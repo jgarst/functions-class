@@ -6,7 +6,7 @@
 #
 attrs==19.1.0             # via jsonschema
 backcall==0.1.0           # via ipython
-bleach==3.1.0             # via nbconvert
+bleach==3.1.2             # via nbconvert
 certifi==2019.11.28       # via requests
 chardet==3.0.4            # via requests
 click==7.0                # via pip-tools
@@ -27,18 +27,18 @@ jsonschema==3.0.2         # via nbformat
 jupyter-client==5.3.1     # via ipykernel, jupyter-console, notebook, qtconsole
 jupyter-console==6.1.0    # via jupyter
 jupyter-core==4.5.0       # via jupyter-client, nbconvert, nbformat, notebook, qtconsole
-jupyter==1.0.0
+jupyter==1.0.0            # via -r requirements.in
 markupsafe==1.1.1         # via jinja2
 mistune==0.8.4            # via nbconvert
 nbconvert==5.6.0          # via jupyter, notebook
-nbdime==1.1.0
+nbdime==1.1.0             # via -r requirements.in
 nbformat==4.4.0           # via ipywidgets, nbconvert, nbdime, notebook
 notebook==6.0.1           # via jupyter, nbdime, rise, widgetsnbextension
 pandocfilters==1.4.2      # via nbconvert
 parso==0.5.1              # via jedi
 pexpect==4.7.0            # via ipython
 pickleshare==0.7.5        # via ipython
-pip-tools==4.4.1
+pip-tools==4.4.1          # via -r requirements.in
 prometheus-client==0.7.1  # via notebook
 prompt-toolkit==2.0.9     # via ipython, jupyter-console
 ptyprocess==0.6.0         # via pexpect, terminado
@@ -48,7 +48,7 @@ python-dateutil==2.8.0    # via jupyter-client
 pyzmq==18.1.0             # via jupyter-client, notebook
 qtconsole==4.6.0          # via jupyter
 requests==2.22.0          # via nbdime
-rise==5.5.1
+rise==5.5.1               # via -r requirements.in
 send2trash==1.5.0         # via notebook
 six==1.12.0               # via bleach, jsonschema, nbdime, pip-tools, prompt-toolkit, pyrsistent, python-dateutil, traitlets
 smmap2==2.0.5             # via gitdb2
